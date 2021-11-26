@@ -25,5 +25,5 @@ def call(String buildStatus = 'STARTED') {
     colorCode = '#00FF00'
   }
 
-  writefile(file: 'build_result.html', text: "${details}")
+  writeFile(file: 'build_result.html', text: "${details}")
 }
