@@ -1,0 +1,1 @@
+Functions in this file are used for three log levels: ERROR, INFO and WARNING messages.
