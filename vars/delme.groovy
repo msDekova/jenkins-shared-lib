@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def print_str() {
-  println "modified"
+  println "test"
 }
