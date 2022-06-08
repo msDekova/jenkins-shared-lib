@@ -1,13 +1,13 @@
 #!/usr/bin/env groovy
 
-def call() {
-    def o_used = 1193555
-    def o_total = 1193814
-    def a_used = 120931
-    def a_total = 122132
+def call(o_used, o_total, a_used, a_total) {
+//    def o_used = 1193555
+//    def o_total = 1193814
+//    def a_used = 120931
+//    def a_total = 122132
     def o_used_kb = o_used.div(1024)
     def o_total_kb = o_total.div(1024)
-    def o_used_total = o_used_b*100.div(o_total_b)
+    def o_used_total = o_used_kb*100.div(o_total_kb)
     
     def a_used_kb = a_used.div(1024)
     def a_total_kb = a_total.div(1024)
