@@ -1,4 +1,4 @@
-def bytesInKBytes(o_used, o_total, a_used, a_total) {
+def bytesInKBytes() {
     def o_used = 1193555
     def o_total = 1193814
     def a_used = 120931
