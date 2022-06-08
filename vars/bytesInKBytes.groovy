@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def bytesInKBytes() {
+def call() {
     def o_used = 1193555
     def o_total = 1193814
     def a_used = 120931
