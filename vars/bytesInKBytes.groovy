@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def bytesInKBytes() {
     def o_used = 1193555
     def o_total = 1193814
